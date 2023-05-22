@@ -19,4 +19,32 @@ class Svg {
     }
 }
 
+const questions = [
+    {
+        type: 'input',
+        name: 'text',
+        message: 'Please enter the text for your logo. (Maximum of three(3) characters)'
+    },
+    {
+        type: 'input',
+        name: 'text-color',
+        message: 'Please choose a text color. (Enter a keyword or hexadecimal)'
+    },
+    {
+        type: 'input',
+        name: 'shape',
+        message: 'Please select a shape for your logo.',
+        choices: ['Circle', 'Square', 'Triangle']
+    },
+    {
+        type: 'input',
+        name: 'shape-color',
+        message: 'Please choose a color for your logo. (Enter a keyword or hexidecimal)'
+    },
+];
+
+function writeToFile(fileName, answers) {
+    fs.writeFile(fileName, answers, (err) => err ? console.log(err) : console.log('Generated logo.svg'));
+}
+
 
