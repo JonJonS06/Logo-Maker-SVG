@@ -21,7 +21,7 @@ If the user answers each questions with a proper response then a new logo.svg fi
 3. Run 'node index.js' to initialize the application and prompt the user questions.
 
 ## Link to Walkthrough Video
-[Link Walkthrough Video][https://watch.screencastify.com/v/0NydSWernYl2qA9qIrag]
+https://watch.screencastify.com/v/0NydSWernYl2qA9qIrag
 
 ## Sample Logo produced using the application
 
